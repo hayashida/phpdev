@@ -10,3 +10,9 @@ default['repo'] = {
 		'gpgkey'      => 'http://rpms.famillecollet.com/RPM-GPG-KEY-remi'
 	}
 }
+
+default['php']['date.timezone'] = 'Asia/Tokyo'
+
+default['mysql']['datadir'] = '/var/lib/mysql'
+default['mysql']['socket'] = '/var/lib/mysql/mysql.sock'
+default['mysql']['lower_case_table_names'] = 0
