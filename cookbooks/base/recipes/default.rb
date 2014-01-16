@@ -23,7 +23,7 @@ end
 end
 
 # install php
-%w{php php-common php-mbstring php-xml php-devel php-process php-cli php-mysql}.each do |p|
+%w{php php-common php-mbstring php-gd php-xml php-devel php-process php-cli php-mysql}.each do |p|
 	package p do
 		action :install
 	end
